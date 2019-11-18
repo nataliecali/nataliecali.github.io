@@ -1,408 +1,59 @@
+.background{
+	position: absolute;
+	top:100;
+	left:0;
+	background-image: url("rosemansion.png");
+	width:100vw;
+	height: 100vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.wrapper{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right: 0;
+	margin: auto;
+	width: 1024px;
+	height: 700px;
+}
 h1{
 	position: absolute;
-	top: 300px;
-	font-family: bold palatino;
-	font-size: 55px;
-	left: 30px;
+	top: 150px;
+	left: 60px;
+	text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 170px;
+    line-height: 100px;
+    color: rgb(255,255,255);
+
+
 }
 
-p{
+@media(max-width: 1024px){
+.background{
 	position: absolute;
-	top: 400px;
-	width: 500px;
-	font-family: palatino;
-	line-height: 20px;
-	font-size: 15px;
-	left: 30px;
+	top:0;
+	left: 0;
+	background-image: url("rosemansion2.png");
+	width: 100vw;
+	height: 100vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;}
 }
-
-.rbox{
-position: absolute;
-left: 50px;
-top: 50px;
-transform: scale(0.5);
-}
-
-.r1{
-
-  position: absolute;
-  top: 50px;
-  width: 70px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-}
- 
- .r2 {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  left: 85px;
-  top: 50px;
-  border: 7px solid rgb(0,0,0);
-  border-radius: 0;
-}
-
-.r3{
-  width: 82px;
-  height: 286px;
-  position: absolute;
-  left: 60px;
-  top: 50px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-}
-
- .r4{
-  width: 150px;
-  height: 144px;
-  position: absolute;
-  left:67px;
-  top:207px;
-  border-right: 7px solid rgb(0,0,0);
-
-}
-
-.abox{
-position: absolute;
-left: 200px;
-top: -81px;
-transform: scale(0.5);
-
-}
-
-.a1{
-position: absolute;
-width: 70px;
-height: 300px;
-background-color: rgb(0,0,0);
-left: -10px;
-top: 306px;
-
-}
- .a2{
-
-  width: 130px;
-  height: 150px;
-  position: absolute;
-  top: 306px;
-  left: 107px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-
-}
-
-.a3{
-  width: 82px;
-  height: 286px;
-  position: absolute;
-  left: 58px;
-  top: 306px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-}
-
-
-.a4{
-  width: 150px;
-  height: 160px;
-  position: absolute;
-  left:94px;
-  top:447px;
-  border-right: 7px solid rgb(0,0,0);
-
-}
-
-.nbox{
-position: absolute;
-left:105px;
-top:48px;
-transform: scale(0.5);
-
-}
- 
- .n1{
-  position: absolute;
-  top: 50px;
-  left: 500px;
-  width: 70px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-}
-
-.n2{
-	width: 82px;
-  height: 286px;
-  position: absolute;
-  left: 566px;
-  top: 50px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-}
-
-
-.n3{
-	position: absolute;
-  top: 50px;
-  left: 708px;
-  width: 6px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-  transform: rotate(0deg);
-}
-
-.n4{
-  position: absolute;
-  top: 50px;
-  left: 752px;
-  width: 6px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-  transform: rotate(0deg);
-}
-
-
-.n5{
-  position: absolute;
-  top: 28px;
-  left: 682px;
-  width: 6px;
-  height: 50px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-	}
-
-.n6{
-	position: absolute;
-  top: 325px;
-  left: 730px;
-  width: 6px;
-  height: 50px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-	}
-
-
-.gbox{
-position: absolute;
-left:105px;
-top:48px;
-transform: scale(0.5);
-
-}
- 
- .g1{
-  position: absolute;
-  top: 50px;
-  left: 820px;
-  width: 70px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-}
-
-.g2{
-  position: absolute;
-  top: 50px;
-  left: 900px;
-  width: 70px;
-  height: 300px;
-  background-color: rgb(255,255,255);
-}
-
-.g3{
-  width: 82px;
-  height: 286px;
-  position: absolute;
-  left: 890px;
-  top: 50px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-}
-
-.g4{
-  position: absolute;
-  top: 294px;
-  left: 1029px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-.g5{
-  position: absolute;
-  top: 209px;
-  left: 1079px;
-  width: 7px;
-  height: 140px;
-  background-color: rgb(0,0,0);
-  transform: rotate(0deg);
-}
-
-.g6{
-  position: absolute;
-  top: 171px;
-  left: 1045px;
-  width: 7px;
-  height: 74px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-.g7{
-  position: absolute;
-  top: 1px;
-  left: 1029px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-
-.ebox{
-  position: absolute;
-  left:480px;
-  top:48px;
-  transform: scale(0.5);
-}
-
-.e1{
-  position: absolute;
-  top: 50px;
-  left: 400px;
-  width: 70px;
-  height: 300px;
-  background-color: rgb(0,0,0);
-}
-
-
-.e2{
-  width: 82px;
-  height: 286px;
-  position: absolute;
-  left: 467px;
-  top: 50px;
-  background-color: rgb(255,255,255);
-  border: 7px solid rgb(0,0,0);
-}
-
-.e3{
-  position: absolute;
-  top: 1px;
-  left: 608px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-.e4{
-  position: absolute;
-  top: 294px;
-  left: 608px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-.e5{
-  position: absolute;
-  top: 165px;
-  left: 596px;
-  width: 7px;
-  height: 78px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-
-.sbox{
-  position: absolute;
-  left:660px;
-  top:50px;
-  transform: scale(0.5);
-}
-
-.s1{
- position: absolute;
-  top: 50px;
-  left: 360px;
-  width: 70px;
-  height: 150px;
-  background-color: rgb(0,0,0);
-
-}
-.s2{
-width: 82px;
-height: 136px;
-position: absolute;
-left: 427px;
-top: 50px;
-background-color: rgb(255,255,255);
-border: 7px solid rgb(0,0,0);
-}
-
-.s3{
-  position: absolute;
-  top: 1px;
-  left: 557px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
-}
-
-.s4{
- position: absolute;
-  top: 193px;
-  left: 453px;
-  width: 70px;
-  height: 150px;
-  background-color: rgb(0,0,0);
-}
-
-.s5{
-width: 82px;
-height: 136px;
-position: absolute;
-left: 517px;
-top: 193px;
-background-color: rgb(255,255,255);
-border: 7px solid rgb(0,0,0);
-}
-
-
-.s6{
-  position: absolute;
-  top: 287px;
-  left: 409px;
-  width: 7px;
-  height: 105px;
-  background-color: rgb(0,0,0);
-  transform: rotate(90deg);
 
 
 }
 
 
-.rbox:hover{
-top: 100px;
-}
-.abox:hover{
-top: 1px;
-}
-.nbox:hover{
-top: 100px;
-}
-.gbox:hover{
-top: 100px;
-}
-.ebox:hover{
-top: 100px;
-}
-.sbox:hover{
-top: 100px;
+
+
+
+
 
 
 
