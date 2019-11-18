@@ -1,0 +1,60 @@
+.background{
+	position: absolute;
+	top:100;
+	left:0;
+	background-image: url("rosemansion.png");
+	width:100vw;
+	height: 100vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.wrapper{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right: 0;
+	margin: auto;
+	width: 1024px;
+	height: 700px;
+}
+h1{
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 170px;
+    line-height: 100px;
+    color: rgb(255,255,255);
+
+
+}
+
+@media(max-width: 1024px){
+.background{
+	position: absolute;
+	top:0;
+	left: 0;
+	background-image: url("rosemansion2.png");
+	width: 100vw;
+	height: 100vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
