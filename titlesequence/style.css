@@ -1,5 +1,110 @@
-.img{
+.bg{
 	position: absolute;
 	height: 100vh;
-	
- }
+	top: 0;
+	left:0;
+}
+.vstheworld{
+position: absolute;
+width: 18vh;
+top: 33vh;
+left:26vh;
+
+}
+
+.pulp{
+	position: absolute;
+	width: 34vh;
+	top:25vh;
+	left:75vh;
+}
+
+.panther{
+	position: absolute;
+	width: 34.5vh;
+	top:24vh;
+	left:260.6vh;
+}
+
+.rocky{
+	position: absolute;
+	width: 18vh;
+	top:31.6vh;
+	left:139.8vh;
+
+}
+
+.orange{
+	position: absolute;
+	width: 17vh;
+	top:30.5vh;
+	left:213vh;
+
+}
+
+.moon{
+	position: absolute;
+	width: 36vh;
+	top:23.5vh;
+	left:435.5vh;
+
+}
+.god{
+	position: absolute;
+	width: 35vh;
+	top:24.5vh;
+	left:621.5vh;
+
+}
+
+.future{
+	position: absolute;
+	width: 19vh;
+	top:30.5vh;
+	left:500.1vh;
+
+}
+
+
+.bfast{
+	position: absolute;
+	width: 17vh;
+	top:29vh;
+	left:387.5vh;
+
+}
+
+.shrek{
+	position: absolute;
+	width: 19vh;
+	top:30.5vh;
+	left:573vh;
+
+}
+
+.heathers{
+	position: absolute;
+	width: 18vh;
+	top: 30.5vh;
+	left:326vh;
+
+}
+.powers{
+	position: absolute;
+	width: 20vh;
+	top: 29.5vh;
+	left:385.5vh;
+}
+
+
+.romeo{
+	position: absolute;
+	width: 19vh;
+	top:30vh;
+	left:686vh;
+}
+
+
+
+
+
