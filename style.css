@@ -1,59 +1,55 @@
-.background{
-	position: absolute;
-	top:100;
-	left:0;
-	background-image: url("rosemansion.png");
-	width:100vw;
-	height: 100vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.wrapper{
-	position: absolute;
-	top:0;
-	left:0;
-	bottom:0;
-	right: 0;
-	margin: auto;
-	width: 1024px;
-	height: 700px;
-}
-h1{
-	position: absolute;
-	top: 150px;
-	left: 60px;
-	text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 170px;
-    line-height: 100px;
-    color: rgb(255,255,255);
-
+.waterfall1{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:33.333vw;
+  height:100px;
+  background-image: linear-gradient(orange, red);
+  animation-name: drip; 
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 
 }
-
-@media(max-width: 1024px){
-.background{
-	position: absolute;
-	top:0;
-	left: 0;
-	background-image: url("rosemansion2.png");
-	width: 100vw;
-	height: 100vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;}
-}
-
+.waterfall2{
+  position: absolute;
+  top:0px;
+  left:33.333vw;
+  width:33.333vw;
+  height:100px;
+  background-image: linear-gradient(red, pink); 
+  animation-name: drip;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 
 }
+.waterfall3{
+  position: absolute;
+  top:0px;
+  left:66.666vw;
+  width:33.333vw;
+  height:100px;
+  background-image: linear-gradient(pink, purple); 
+  animation-name: drip;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes drip{
+  0%{
+height:100px;
+  }
+50%{
+  height:100vh;
+}
 
-
-
-
-
-
+100%{
+  height:100px;
+}
+.waterfall1.alarm {
+  background-image: linear-gradient(green, blue) !important;
+}
+.waterfall2.alarm{
+  background-image: linear-gradient(blue, purple) !important;
+}
 
 
 
